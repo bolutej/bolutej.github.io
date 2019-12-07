@@ -55,6 +55,25 @@ a {
 li {
     padding-bottom: 1em;
 }
+#table {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    width: 200px;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 @media(max-width: 650px){
     #header{
@@ -85,5 +104,11 @@ li {
         width: 20rem;    
         margin-left: 20px;
     }
+    #table {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    
 }
 
