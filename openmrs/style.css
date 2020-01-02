@@ -13,6 +13,7 @@ main {
     width: 800px;
     height: fit-content;
     background-color: white;
+    margin-top: 5rem;
 }
 
 #dividers {
@@ -38,6 +39,10 @@ main {
 }
 .green {
     background-color: #009384;
+}
+#righthead img {
+    width: 12rem;
+    float: right;
 }
 #content {
     margin: 8rem 4rem 4rem 4rem;
@@ -81,5 +86,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 
 
